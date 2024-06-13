@@ -90,7 +90,7 @@ def extract_channels():
         endpoint="channels",
         params = {
             "part": "snippet,statistics",
-            "key": "AIzaSyC5UT680RNQe_XZn045ZQ7NczOrb-N2atk",
+            "key": token,
             "id": "UCa7sY4ir6zqXcI5sEs9Jhrw"
         }
     )
